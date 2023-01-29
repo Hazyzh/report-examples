@@ -14,7 +14,8 @@ const config = {
       urlForTestFiles: 'https://github.com/Hazyzh/report-examples/blob/master',
       darkTheme: true,
     }]
-  ]
+  ],
+  globalSetup: './global.setup.js'
 };
 
 module.exports = config;
