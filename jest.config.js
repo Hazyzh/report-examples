@@ -4,8 +4,7 @@ const config = {
   reporters: [
     'default',
     ['jest-html-reporters', {
-      publicPath: 'examples',
-      filename: 'index.html',
+      filename: 'report.html',
       pageTitle: '时空是个圆圈',
       logoImgPath: './logo.png',
       testCommand: 'yarn test',
