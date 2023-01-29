@@ -24,4 +24,9 @@ describe('add log to test', () => {
 
     expect(3).toBe(3);
   })
+
+  test('attach logs 2', async () => {
+    await addMsg({ message: JSON.stringify({hell: 'world', name: 'test', age: 18}, null, 2)});
+    expect(3).toBe(3);
+  })
 })
