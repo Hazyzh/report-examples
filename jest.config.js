@@ -1,6 +1,6 @@
 /** @type {import('jest').Config} */
 const config = {
-  verbose: true,
+  verbose: false,
   reporters: [
     'default',
     ['jest-html-reporters', {
@@ -12,6 +12,7 @@ const config = {
       dataMergeLevel: 2,
       urlForTestFiles: 'https://github.com/Hazyzh/report-examples/blob/master',
       darkTheme: true,
+      includeConsoleLog: true,
     }]
   ],
   globalSetup: './global.setup.js'
